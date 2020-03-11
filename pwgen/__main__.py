@@ -42,6 +42,9 @@ def main( argv ):
             if arg1 == "--help" or arg1 == "-h":
                 help()
                 return 0
+            elif arg1 == "--version":
+                print( VERSION )
+                return 0
             elif not parseOptions( arg1 ):
                 raise RuntimeError( "Unrecognized argument: \"{}\"".format( arg1 ) )
             elif not parseLength( arg2 ):
