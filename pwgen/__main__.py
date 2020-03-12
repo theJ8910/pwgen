@@ -73,7 +73,7 @@ def main( argv ):
 def help():
     print(
 """Usage:
-    python3 -m pwgen [OPTIONS] [length]
+    python -m pwgen [OPTIONS] [length]
 
 Description:
     Generates a random password of the desired length, consisting of lower and uppercase letters, digits, spaces and/or other symbols.
