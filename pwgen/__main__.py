@@ -20,8 +20,9 @@ arg_length       = 64
 #| Spaces              | -s | -S  | On       |
 #+---------------------+----+-----+----------+
 
-def main( argv ):
+def main():
     try:
+        argv = sys.argv
         #Parse arguments
         argc = len( argv )
         #Options or length specified
@@ -137,4 +138,4 @@ def parseLength( arg ):
         return False
 
 if __name__ == "__main__":
-    sys.exit( main( sys.argv ) )
+    sys.exit( main() )

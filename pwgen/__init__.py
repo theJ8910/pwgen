@@ -1,7 +1,8 @@
-from secrets import choice
-from random  import shuffle
+from secrets            import choice
+from random             import shuffle
+from importlib.metadata import version
 
-VERSION = "1.0"
+VERSION = version( __package__ )
 
 UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz"

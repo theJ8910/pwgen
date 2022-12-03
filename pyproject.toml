@@ -1,0 +1,13 @@
+[project]
+name            = "pwgen"
+version         = "1.1"
+authors         = [{ name = "theJ89" }]
+description     = "theJ89's Password Generator"
+readme          = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+zip-safe        = true
+
+[project.scripts]
+pwgen = "pwgen.__main__:main"

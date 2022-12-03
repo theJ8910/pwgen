@@ -1,7 +1,7 @@
 pwgen
 =====
 
-pwgen is a standalone password generator I wrote to make creating strong randomized passwords easy. Requires Python 3.6+.
+pwgen is a standalone password generator I wrote to make creating strong randomized passwords easy. Requires Python 3.8+.
 
 pwgen is both an executable and a library. You can run it from a terminal or import it and use it as part of another program if you so desire.
 

@@ -1,3 +1,4 @@
 __pycache__/
+/build/
 /pwgen.egg-info/
 /pwgen.txt
