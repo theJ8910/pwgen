@@ -75,6 +75,6 @@ If you have git installed locally, the following command can be used to install 
 
 `pip install git+https://github.com/theJ8910/pwgen.git`
 
-Otherwise, you can download pwgen [here](https://github.com/theJ8910/pwgen/archive/master.zip) and run the following command:
+Otherwise, you can download pwgen [here](https://github.com/theJ8910/pwgen/archive/main.zip) and run the following command:
 
-`pip install pwgen-master.zip`
+`pip install pwgen-main.zip`
